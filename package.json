@@ -1,0 +1,6 @@
+{
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.9"
+  }
+}

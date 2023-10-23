@@ -63,6 +63,20 @@ body {
 .navbar-nav .nav-item .nav-link:active {
     color: white; 
 }
+.navbar .nav-item {
+    position: relative;
+}
+
+.navbar .nav-item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    height: 60%;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.5); /* You can adjust the color and opacity */
+}
 
 
 

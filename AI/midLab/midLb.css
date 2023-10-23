@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.nav-item a
+{
+    color: black;
+}
+.nav
+{
+    background-color: #FAF9F6;
+}
+
+.dropdown-menu {
+    background-color: #00008b;
+    color: white; 
+}
+
+  .nav-item .active {
+    font-weight: bold;
+}
+.nav
+{
+    border: none;
+}
+.container {
+    display: flex; /* Use flexbox to make cards and card1 elements parallel */
+    flex-wrap: wrap; /* Wrap the elements onto a new line if they exceed the container's width */
+  }
+  
+  .card, .card1 {
+    width: 48%; /* Set the width of each element to control their size */
+    border: 1px solid #ccc; /* Add a border for visual separation (optional) */
+    padding: 10px; /* Add padding for spacing and aesthetics */
+    margin: 5px; /* Add margin to separate the elements */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+  }
+  
