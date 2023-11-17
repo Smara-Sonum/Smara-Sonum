@@ -35,7 +35,7 @@ $(document).ready(function() {
             console.log("Password: " + password);
             
             // Prevent the actual form submission
-            return false;
+            return true;
         }
     });
 });
